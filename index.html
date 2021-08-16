@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todo List</title>
+        <link rel="stylesheet" href="assets/style.css">
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700&display=swap" rel="stylesheet">
+        <!--FontAwesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+    <body>
+        <main id="principal">
+            <!--principal-container-->
+            <div class="principal-container">
+                <header id="header-todo">
+                    <h1>Meu Dia</h1>
+                    <!--day, month and year-->
+                    <div id="date">
+                        <span class="span"></span>
+                        <span class="span2"></span>
+                    </div>
+                </header>
+                <!--todo-content-->
+                <section id="todo-content">
+                    <h2>Minha lista de tarefas</h2>
+                    <!--form-->
+                    <form action="" id="form">
+                        <input type="text" class="task-value" placeholder="Digite suas tarefas de hoje" autofocus>
+                        <button class="btn-submit"><i class="fas fa-plus"></i></button>
+                    </form>
+                    <!--my-todo-list-->
+                    <div id="my-todolist">
+                        <h4 class="list-title hide">Suas atividades para hoje:</h4>
+                        <ul id="list">
+                            <li class="template hide">
+                                <p class="task-content"></p>
+                                <div class="icons">
+                                    <i class="fas fa-check check"></i>
+                                    <i class="fas fa-trash-alt delete"></i>
+                                </div>
+                            </li>
+                        </ul>     
+                        <span class="contador"></span>
+                        <button class="btn-close hide">Apagar Tudo <i class="fas fa-trash-alt"></i></button>               
+                    </div>
+                </section>
+            </div>
+        </main>
+    </body>
+    <!--script-->
+    <script src="assets/script.js"></script>
+</html>
