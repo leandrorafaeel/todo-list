@@ -112,3 +112,10 @@ document.querySelector(".btn-submit").addEventListener("click", function(e){
     e.preventDefault();
     addTarefas();
 });
+
+//funcao copyright
+copyright();
+function copyright(){
+    const copyright = document.querySelector(".ano");
+    copyright.textContent = new Date().getFullYear();
+}

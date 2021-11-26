@@ -53,13 +53,13 @@ ul{
     font-size: 3.3rem;
     letter-spacing: 1px;
     text-shadow: .2rem .2rem .3rem #000;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
 }
 /*form*/
 #form{
     display: flex;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .task-value{
     width: 650px;
@@ -141,6 +141,16 @@ ul{
 .btn-close{
     width: 120px;
     margin-top: 20px;
+}
+footer{
+    background: linear-gradient(to right, #da4652, #450652);;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+footer a{
+    color: #fff;
+    letter-spacing: 1px;
 }
 
 /*BREACKPOINT*/
