@@ -65,9 +65,9 @@ ul{
     width: 650px;
     margin-right: 5px;
     padding: 15px;
+    font-size: 1rem;
 }
 .task-value::placeholder{
-    font-size: 1rem;
     color: var(--purple);
 }
 .btn-submit{
@@ -75,6 +75,7 @@ ul{
     cursor: pointer;
     color: var(--purple);
     transition: all .3s;
+    font-size: 1rem;
 }
 .btn-submit:hover{
     background-color: var(--purple);
